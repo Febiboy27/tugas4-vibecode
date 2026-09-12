@@ -18,6 +18,6 @@ npm run build
 
 ## Cakupan data
 
-Data kejadian per kecamatan berasal dari workbook tahun 2020–2023, data penduduk berasal dari 2019, data penyebab mencakup Jakarta Barat tahun 2021–2023, dan data pos pemadam menggunakan periode 2024. Peta menampilkan kejadian sebagai agregat kecamatan, bukan titik kejadian individual.
+Data kejadian per kecamatan berasal dari workbook tahun 2020–2023, data penduduk berasal dari 2019, data penyebab mencakup Jakarta Barat tahun 2021–2023, dan data pos pemadam menggunakan periode 2024. Peta memakai batas kecamatan ADM3 Jakarta Barat dari geoBoundaries (basis BPS/WFP/OCHA) dan menampilkan kejadian sebagai agregat kecamatan, bukan titik kejadian individual.
 
 Seluruh data analitik saat ini dibundel di `src/App.jsx` agar MVP dapat berjalan tanpa backend.
